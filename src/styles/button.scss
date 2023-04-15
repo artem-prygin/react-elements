@@ -1,0 +1,44 @@
+button {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+
+    svg {
+        margin-right: 5px;
+    }
+
+    &.plain {
+        border: 1px solid #000;
+        color: #000;
+    }
+
+    &.primary {
+        background-color: #0d6efd;
+    }
+
+    &.warning {
+        color: #000;
+        background-color: #ffc107;
+    }
+
+    &.danger {
+        background-color: #dc3545;
+    }
+
+    &.secondary {
+        background-color: #6c757d;
+    }
+
+    &.success {
+        background-color: #198754;
+    }
+
+    &.rounded {
+        border-radius: 9999px;
+    }
+}

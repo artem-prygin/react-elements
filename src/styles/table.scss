@@ -1,0 +1,38 @@
+.row {
+    th, td {
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .color {
+        margin: auto;
+        width: 15px;
+        height: 15px;
+
+        &.orange {
+            background: orange;
+        }
+
+        &.blue {
+            background: blue;
+        }
+
+        &.green {
+            background: green;
+        }
+
+        &.red {
+            background: red;
+        }
+    }
+}
+
+.red {
+    background: red;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}

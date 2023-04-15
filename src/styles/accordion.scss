@@ -1,0 +1,14 @@
+.accordion {
+    &-label {
+        background: #eee;
+        border-bottom: 1px solid #ddd;
+
+        span {
+            font-size: 25px;
+        }
+    }
+
+    &-content {
+        border-bottom: 1px solid #ddd;
+    }
+}
